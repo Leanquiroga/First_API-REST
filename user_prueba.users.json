@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "662acf26f397bfe19dfb3c36"
+  },
+  "email": "Lea@gmail.com",
+  "createdAt": {
+    "$date": "2024-04-25T21:46:14.025Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-25T21:46:14.025Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ad160ae4c4c1927ab0a39"
+  },
+  "name": "Lwwweandro",
+  "email": "Lwwwea@gmail.com",
+  "password": "pablitoClavoUnClavito123",
+  "createdAt": {
+    "$date": "2024-04-25T21:55:44.040Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-25T21:55:44.040Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "662ad386498ed6183252d57b"
+  },
+  "name": "GErnam",
+  "email": "German@gmail.com",
+  "password": "pablitoClavoUnClavito123",
+  "createdAt": {
+    "$date": "2024-04-25T22:04:54.222Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-25T22:05:10.395Z"
+  }
+}]

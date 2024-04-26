@@ -7,23 +7,27 @@ const router = express.Router();
 
 //CRUD
 
+//POST
 router.post("/", async (req, res) =>{
     const body = req.body;
     const respuesta = await ModelUser.create(body)
     res.send(respuesta)
 })
 
+//GET
 router.get("/", async (req, res) =>{
     const respuesta = await ModelUser.find({})
     res.send(respuesta)
 })
 
+//GET BY ID
 router.get("/:id", async (req, res) =>{
     const id = req.params.id;
     const respuesta = await ModelUser.findById(id)
     res.send(respuesta)
 })
 
+//PUT
 router.put("/:id", async (req, res) =>{
     const body = req.body;
     const id = req.params.id;
@@ -31,6 +35,7 @@ router.put("/:id", async (req, res) =>{
     res.send(respuesta)
 })
 
+//DELETE
 router.delete("/:id", async (req, res) =>{
     const id = req.params.id;
     const respuesta = await ModelUser.deleteOne({_id: id})
